@@ -39,14 +39,18 @@ extern "C" {
 /** @attention  User can config network card name here, if your device is not MF2C/G, please comment below and add your
  * NIC name micro define as #define 'LINUX_NETWORK_DEV   "your NIC name"'.
  */
+  /*
 #ifdef PLATFORM_ARCH_x86_64
 #define LINUX_NETWORK_DEV           "enx000ec6688213"
 #else
 #define LINUX_NETWORK_DEV           "l4tbr0"
 #endif
+*\
 /**
  * @attention
  */
+  
+#define LINUX_NETWORK_DEV           "ubs0"
 
 #ifdef PLATFORM_ARCH_x86_64
 #define USB_NET_ADAPTER_VID                   (0x0B95)
