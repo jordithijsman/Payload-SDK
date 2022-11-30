@@ -41,6 +41,8 @@ extern "C" {
 /*!< Attention: Select your hardware connection mode here.
 * */
 #define CONFIG_HARDWARE_CONNECTION         DJI_USE_UART_AND_NETWORK_DEVICE
+//#define CONFIG_HARDWARE_CONNECTION         DJI_USE_UART_AND_USB_BULK_DEVICE
+//#define CONFIG_HARDWARE_CONNECTION         DJI_USE_ONLY_UART
 
 /* Exported types ------------------------------------------------------------*/
 
