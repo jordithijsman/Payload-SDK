@@ -36,7 +36,7 @@ extern "C" {
 
 /* Exported constants --------------------------------------------------------*/
   
-#define LINUX_NETWORK_DEV           "eth0"
+#define LINUX_NETWORK_DEV           "usb1"
 
 #ifdef PLATFORM_ARCH_x86_64
 #define USB_NET_ADAPTER_VID                   (0x0B95)
